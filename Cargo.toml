@@ -1,0 +1,30 @@
+[package]
+name = "writing"
+version = "0.1.0"
+authors = [ "Phodal Huang <h@inherd.org>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/inherd/forming"
+documentation = "https://github.com/inherd/forming"
+homepage = "https://github.com/inherd/forming"
+description = """
+Writing, is a simple tool for code-document sync.
+"""
+categories = ["text-processing", "command-line-interface", "development-tools"]
+exclude = [
+    ".coco/*",
+    "benchmark/*",
+    "fixtures/*",
+    "targets/*",
+    ".github/*",
+    ".gitattributes",
+    ".adr.json",
+]
+
+
+[dependencies]
+
+[lib]
+name = "writing"
+crate-type = ["lib"]

@@ -1,15 +1,20 @@
 # Writing 
 
-> a document-code sync tools for setup.
+> a document-code sync tools for document engineering.
 
-## process
+language parse support by [guarding](https://github.com/inherd/guarding) with [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
-1. read markdown file
-2. parse markdown code
-3. insert new code
-4. generate new code
+## install
 
-## DSL Design
+with Rust
+
+```
+cargo install writing
+```
+
+download: [release](https://github.com/inherd/writing/releases)
+
+## Usage
 
 by Lines
 
@@ -17,13 +22,13 @@ by Lines
 // doc-code: file("src/lib.rs").line()[1, 5]
 ```
 
-by Section (Todo)
+by Section
 
 ```writing
 // doc-section: file("src/lib.rs").section("section1")
 ```
 
-by Function (Todo)
+by Function
 
 ```writing
 // doc-func: file("src/lib.rs").func()["pre_process_file", "process_file"]

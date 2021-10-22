@@ -1,6 +1,6 @@
 [package]
 name = "writing"
-version = "0.1.1"
+version = "0.2.0"
 authors = [ "Phodal Huang <h@inherd.org>"]
 edition = "2018"
 license = "MIT"

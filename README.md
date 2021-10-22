@@ -4,17 +4,39 @@
 
 language parse support by [guarding](https://github.com/inherd/guarding) with [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
-## install
+current supported language: Java, JavaScript, Rust
 
-with Rust
+## Usage
+
+### Install
+
+install with Rust Cago 
 
 ```
 cargo install writing
 ```
 
-download: [release](https://github.com/inherd/writing/releases)
+or download from: [release](https://github.com/inherd/writing/releases)
 
-## Usage
+### Run
+
+usage:
+
+```
+writing -p README.md
+```
+
+all command:
+
+```bash
+OPTIONS:
+    -h, --help               Print help information
+    -o, --output <OUTPUT>    [default: out.md]
+    -p, --path <PATH>        [default: README.md]
+    -V, --version            Print version information
+```
+
+## Samples
 
 by Lines
 

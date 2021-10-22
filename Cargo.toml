@@ -33,7 +33,9 @@ thiserror = "1.0"
 
 clap = "3.0.0-beta.5"
 
-guarding_core = "0.2.5"
+tree-sitter = "0.19.3"
+
+guarding_core = "0.2.6"
 guarding_ident = "0.2.6"
 
 [[bin]]

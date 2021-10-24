@@ -71,6 +71,10 @@ process:
 4. read code
 5. generate output
 
+### Grammar
+
+see in [writing.pest](src/parser/writing.pest)
+
 ### Documents
 
 [API 库的文档体系支持：主流编程语言的文档设计](https://www.phodal.com/blog/api-ducumentation-design-dsl-base/)

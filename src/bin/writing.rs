@@ -16,7 +16,6 @@ struct Opts {
 fn main() {
     let opts: Opts = Opts::parse();
 
-
     let result = match Writing::process_file(opts.path) {
         Ok(s) => s,
         Err(e) => {
@@ -25,11 +24,8 @@ fn main() {
         }
     };
 
-    match fs::write(opts.output, result) {
-        Ok(_) => {},
-        Err(e) => {
-            println!("{:?}", e);
-            return;
-        }
+    if let Err(e) = fs::write(opts.output, result) {
+        println!("{:?}", e);
+        return;
     }
 }

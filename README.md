@@ -29,8 +29,8 @@ all command:
 ```bash
 OPTIONS:
     -h, --help               Print help information
+    -i, --input <INPUT>      [default: README.md]
     -o, --output <OUTPUT>    [default: out.md]
-    -p, --path <PATH>        [default: README.md]
     -V, --version            Print version information
 ```
 

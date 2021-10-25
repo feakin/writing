@@ -5,9 +5,9 @@ authors = [ "Phodal Huang <h@inherd.org>"]
 edition = "2018"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/inherd/forming"
-documentation = "https://github.com/inherd/forming"
-homepage = "https://github.com/inherd/forming"
+repository = "https://github.com/inherd/writing"
+documentation = "https://github.com/inherd/writing"
+homepage = "https://github.com/inherd/writing"
 description = """
 Writing, is a simple tool for code-document sync.
 """

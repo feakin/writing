@@ -8,7 +8,7 @@ Language parse support by [guarding](https://github.com/inherd/guarding) with [t
 
 ### Install
 
-install with Rust Cago 
+install with Rust Cargo 
 
 ```
 cargo install writing
@@ -53,6 +53,12 @@ by Function
 ```writing
 // doc-func: file("src/lib.rs").func()["pre_process_file", "process_file"]
 ```
+
+````custom image
+```graphviz?
+Graphviz
+```
+````
 
 ## Development
 
